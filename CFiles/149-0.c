@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int f()
+{
+	int a,b,c,d;
+	printf("°ª ÀÔ·Â : ");
+	scanf("%d %d %d %d", &a, &b, &c, &d);
+	return a+b+c+d;
+} 
+
+int main()
+{		
+	switch(f())
+	{
+		case 1:printf("µµ\n");break;
+		case 2:printf("°³\n");break;
+		case 3:printf("°É\n");break;
+		case 4:printf("Àµ\n");break;
+		case 0:printf("¸ð\n");break;
+		default:printf("¼Õ½Â¿ë ±â¸ðÂî!\n");
+	}
+}
